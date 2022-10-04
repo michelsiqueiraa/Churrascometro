@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background: #FFFFFF url("Img/churras.jpeg"); */
+    background-size:auto;
+
+}
+
+.container{
+    max-width: 300px;
+    margin: auto;    
+    display: block;
+    border-radius: 10px;
+    background-color: #d0e0eb;
+    padding: 20px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    margin-bottom: 8px;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+}
