@@ -38,8 +38,8 @@ function cervejaPPes(){
 
 function bebidasPPes(){
     if(duracao >= 6){
-        return 1700;
+        return 1500;
     } else{
-        return 1200;
+        return 1000;
     }
 }

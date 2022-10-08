@@ -1,27 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* background: #FFFFFF url("Img/churras.jpeg"); */
-    background-size:auto;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+    background: url('Img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
+
+
 
 .container{
     max-width: 300px;
-    margin: auto;    
+    margin: auto;
+    margin-top: 20px;    
     display: block;
     border-radius: 10px;
-    background-color: #d0e0eb;
+    background-color: #fab2a0;
     padding: 20px;
     text-align: center;
+    opacity: 0.9;
 }
+
+.bnt{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
 input{
     width: 100%;
     margin-bottom: 8px;
     display: block;
-    padding: 5px;
+    padding: 3px;
     box-sizing: border-box;
-    border-radius: 3px;
+    border-radius: 5px;
     font-family: 'Poppins', sans-serif;
 }
+
+
